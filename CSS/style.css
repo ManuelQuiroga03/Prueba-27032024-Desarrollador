@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@100;300;400;700&display=swap');
+
+body {
+    text-align: center;
+    font-family: 'Jost', sans-serif;
+    background-color: #f0f5ff;
+}
+
+h1 {
+    font-size: 48px;
+    color: #232c3d;
+}
+
+.wrapper {
+    width: 590px;
+    margin: auto;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, .1);
+    overflow-x: auto;
+}
+
+.contentWrapper{
+    min-height: 183px;
+}
+
+.buttonWrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+button {
+    letter-spacing: 3px;
+    border: none;
+    padding: 10px;
+    background-color: #bccbe9;
+    color: #232c3d;
+    font-size: 18px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+button:hover {
+    background-color: #d5e3ff;
+}
+
+button.active {
+    background-color: white;
+}
+
+.btn-proof{
+    margin-top: 10px;
+    border-radius: 8px;
+}
+
+.active {
+    background-color: white;
+}
+
+p {
+    text-align: left;
+    padding: 10px;
+    margin: 0px;
+}
+
+.content {
+    display: none;
+    padding: 10px 20px;
+}
+
+.content.active {
+    display: block;
+}
+
+#resultsTable0 {
+    margin: 0 auto; 
+    width: fit-content; 
+    border-collapse: collapse;
+}
+
+#resultsTable0 th, #resultsTable0 td {
+    padding: 8px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+#resultsTable0 th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+
+#resultsTable {
+    margin: 0 auto; 
+    width: fit-content; 
+    border-collapse: collapse;
+}
+
+#resultsTable th, #resultsTable td {
+    padding: 8px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+#resultsTable th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+
+#resultsTable2 {
+    margin: 0 auto; 
+    width: fit-content; 
+    border-collapse: collapse;
+}
+
+#resultsTable2 th, #resultsTable2 td {
+    padding: 8px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+#resultsTable2 th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
